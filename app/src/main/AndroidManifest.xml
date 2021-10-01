@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freewings">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".ABM.ABM_Alumnos"/>
+        <activity android:name=".ABM.ABM_Cursos"/>
+        <activity android:name=".ABM.Alumnos_cursos"/>
+        <activity android:name=".Listados.Listado_alumnos" />
+        <activity android:name=".Listados.Listado_cursos" />
+        <activity android:name=".Listados.Listado_cobros"/>
+        <activity android:name=".Otros.Menu" />
+        <activity android:name=".Otros.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

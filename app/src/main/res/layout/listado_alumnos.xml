@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Relative Layout-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_liso"
+    android:id="@+id/relativelayout">
+
+    <TextView
+        android:id="@+id/txt_alumnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/alumnos"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="agregarAlumno"
+        android:text="@string/agregar" />
+
+    <Button
+        android:id="@+id/btn_ordenEdad"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="ordenarEdad"
+        android:text="@string/ordenar_Edad"
+        android:tooltipText="Menor a mayor" />
+
+    <Button
+        android:id="@+id/btn_ordenNombre"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="133dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="ordenarNombre"
+        android:text="@string/ordenar_Nombre" />
+
+    <TextView
+        android:id="@+id/txt_ordenar"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="94dp"
+        android:autofillHints=""
+        android:text="@string/ordenar"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_ordenApellido"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_toStartOf="@+id/btn_ordenEdad"
+        android:layout_toLeftOf="@+id/btn_ordenEdad"
+        android:layout_toEndOf="@+id/btn_ordenNombre"
+        android:layout_toRightOf="@+id/btn_ordenNombre"
+        android:background="@drawable/button_rounded"
+        android:onClick="ordenarApellido"
+        android:text="@string/ordenar_Apellido" />
+
+    <ListView
+        android:id="@+id/ls_alumnos"
+        android:layout_width="wrap_content"
+        android:layout_height="432dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/txt_nombreApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="226dp"
+        android:text="@string/nombreApellido" />
+
+</RelativeLayout>

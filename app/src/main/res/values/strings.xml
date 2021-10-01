@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FreeWings</string>
+
+    //Textos
+    <string name="usuario">Usuario…</string>
+    <string name="password">Contraseña…</string>
+    <string name="titulo">Free Wings</string>
+    <string name="alumnos">Alumnos</string>
+    <string name="administrar">Administrar</string>
+    <string name="menu">Menú</string>
+    <string name="datos_alumno">Datos del alumno</string>
+    <string name="datos_padre">Datos del padre/madre</string>
+    <string name="nombrePadre">Nombre del padre/madre…</string>
+    <string name="nombre">(*)Nombre…</string>
+    <string name="apellido">(*)Apellido…</string>
+    <string name="dni">(*)DNI…</string>
+    <string name="edad">Edad…</string>
+    <string name="nacimiento">Fecha de nacimiento…</string>
+    <string name="telefono">Celular/Fijo…</string>
+    <string name="direccion">Direccion…</string>
+    <string name="extra">Datos adicionales…</string>
+    <string name="obligatorios">(*)Campos obligatorios</string>
+    <string name="ordenar">ORDENAR</string>
+    <string name="nombreApellido">Nombre y Apellido</string>
+    <string name="nombreCurso">(*)Nombre del curso…</string>
+    <string name="valorCurso">(*)Valor de la cuota…</string>
+    <string name="cursos">Cursos</string>
+    <string name="alumnosCurso">Alumnos en el curso</string>
+    <string name="cobros">Cobros</string>
+    <string name="listaCobros">Lista de cobros</string>
+    <string name="seleccionarAlumno">Seleccione un alumno…</string>
+    <string name="descripcion">Descripcion…</string>
+    <string name="vencimiento">Vencimiento…</string>
+    <string name="estado">Estado…</string>
+    <string name="tipo">Tipo…</string>
+    <string name="precio">Precio…</string>
+    <string name="seleccioneCurso">Seleccione un curso…</string>
+
+
+
+    //Botones
+    <string name="iniciar">Iniciar</string>
+    <string name="volver">Volver</string>
+    <string name="modificar">Modificar</string>
+    <string name="agregar">Agregar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="agregarAlumno">Agregar alumno</string>
+    <string name="sacarAlumno">Sacar alumno</string>
+    <string name="agregarAlumnoCurso">Agregar alumno a un curso</string>
+    <string name="sacarAlumnoCurso">Sacar alumno de un curso</string>
+    <string name="generarCobro">Generar cobro</string>
+    <string name="nuevoCobro">Nuevo cobro</string>
+
+    //Ordenamientos
+    <string name="ordenar_Nombre">Nombre</string>
+    <string name="ordenar_Apellido">Apellido</string>
+    <string name="ordenar_Edad">Edad</string>
+
+
+
+</resources>
